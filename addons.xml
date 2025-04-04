@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addons>
+    <addon id="plugin.video.culture" name="Культура.РФ LIVE" version="0.0.2" provider-name="SantaX">
+        <requires>
+            <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+            <import addon="script.module.requests" version="0.0.0" />
+            <import addon="plugin.video.youtube" version="6.8.0" />
+            <import addon="plugin.video.zeltorix.vk.video" version="0.0.0" />
+            <import addon="plugin.video.zeltorix.rutube" version="0.0.0" />
+            <import addon="plugin.video.zeltorix.ok.video" version="0.0.0" />
+        </requires>        
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.video" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="ru_RU">Видео трансляции онлайн. Культура.РФ</summary>
+            <description lang="ru_RU">Смотреть прямые трансляции концертов, театров, лекций, фестивалей и экскурсий бесплатно.</description>
+            <disclaimer lang="ru_RU">Неофициальный плагин</disclaimer>
+            <news>
+                v0.0.2 (2024-02-24)
+                    [new] 
+                    [fix]
+                ...
+                v0.0.2 (2025-03-17)
+                    [new] Первая публикация в прод
+                v0.0.1 (2025-03-08)
+                    [new] Старт проекта: реализовано главное меню
+            </news>
+            <platform>all</platform>
+            <language>ru</language>
+            <license>GPL-3-or-later</license>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.png</fanart>
+            </assets>
+        </extension>
+    </addon>
+</addons>
