@@ -1,5 +1,57 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <addons>
+<addon id="plugin.video.afisha" name="Афиша" version="0.1.5" provider-name="SantaX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.requests" version="0.0.0" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ru_RU">Фильмотека Afisha.ru</summary>
+        <description lang="ru_RU">Медиа агрегатор с получением описания фильмов и сериалов с сайта https://www.afisha.ru</description>
+        <disclaimer lang="ru_RU">Не официальный плагин</disclaimer>
+        <news>
+            v0.0.2 (2024-02-24)
+                [new]
+                [fix]
+            ...
+            v0.1.5 (2025-03-06)
+                [new] Поиск сериалов по 6 провайдерам
+            v0.1.3 (2025-03-06)
+                [new] Оптимизация кода под сериалы. Поиск сериалов по 3 провайдерам
+            v0.1.1 (2025-03-02)
+                [new] Подготовка для сериалов. Поиск по ним пока отключен
+            v0.1.0 (2025-03-02)
+                [new] Добавлены 6 провайдеров
+            v0.0.5 (2025-02-15)
+                [new] Добавлен первый провайдер
+            v0.0.4 (2025-02-11)
+                [new] Добавлена пагинация для результатов
+            v0.0.3 (2025-02-10)
+                [new] Реализована обработка всех пунктов меню
+            v0.0.2 (2025-02-09)
+                [new] Добавлены функции работы с контекстным меню
+            v0.0.1 (2025-02-08)
+                [new] Старт проекта: реализована работа пункта Поиск
+        </news>
+        <platform>all</platform>
+        <language>ru</language>
+        <license>GPL-3-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.culture" name="Культура.РФ LIVE" version="0.0.2" provider-name="SantaX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
