@@ -107,7 +107,7 @@
         <dir minversion="19.0.0">
 	    <info compressed="false">https://github.com/santax666/kodi.repository/raw/main/addons.xml</info>
 	    <checksum>https://github.com/santax666/kodi.repository/raw/main/addons.xml.md5</checksum>
-	    <datadir zip="true">https://github.com/santax666/kodi.repository/raw/main/</datadir>
+	    <datadir zip="true">https://github.com/santax666/kodi.repository/raw/refs/heads/main/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
