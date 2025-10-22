@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <addons>
-<addon id="plugin.video.afisha" name="Афиша" version="0.1.5" provider-name="SantaX">
+<addon id="plugin.video.afisha" name="Афиша" version="0.1.6" provider-name="SantaX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="0.0.0" />
