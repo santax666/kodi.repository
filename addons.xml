@@ -121,7 +121,7 @@
     </extension>
 </addon>
 
-<addon id="weather.yandexweather" version="0.3.2" name="Я.Погода" provider-name="Mdesignstudio, SantaX">
+<addon id="weather.yandexweather" version="0.3.3" name="Я.Погода" provider-name="Mdesignstudio, SantaX">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.27.1"/>
