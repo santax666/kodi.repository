@@ -121,6 +121,21 @@
     </extension>
 </addon>
 
+<addon id="weather.rp5" version="0.1.1" name="Погода от rp5" provider-name="Mdesignstudio, SantaX">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.27.1"/>
+  </requires>
+  <extension point="xbmc.python.weather" library="main.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Погода с сайта rp5.ru</summary>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="weather.yandexweather" version="0.3.6" name="Я.Погода" provider-name="Mdesignstudio, SantaX">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
