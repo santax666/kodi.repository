@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.zaycev-net" 
+       name="Zaycev.net" 
+       version="0.1.1" 
+       provider-name="SantaX">
+    
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="0.0.0" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ru">Музыкальный портал ZAYCEV.NET</summary>
+        <description lang="ru">Слушай музыку бесплатно онлайн и скачивай в MP3</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
