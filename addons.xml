@@ -191,7 +191,7 @@
     </extension>
 </addon>
 
-<addon id="weather.rp5" version="0.1.1" name="Погода от rp5" provider-name="Mdesignstudio, SantaX">
+<addon id="weather.rp5" version="0.1.2" name="Погода от rp5" provider-name="Mdesignstudio, SantaX">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.27.1"/>
